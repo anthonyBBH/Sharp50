@@ -116,8 +116,6 @@ form li div label, form li span label {
 .account-name        {margin:0;}
 
 
-.sales-representative.focused{width:200px; background-color: rgb(255, 247, 192); }
-.account-name.focused        {width:250px; background-color: rgb(255, 247, 192); }
 
 
 
@@ -129,10 +127,17 @@ form li div label, form li span label {
 .full-name.focused { background-color: rgb(255, 247, 192); width: 230px !important;}
 .work-email.focused { background-color: rgb(255, 247, 192); width: 230px !important;}
 .address-one.focused { background-color: rgb(255, 247, 192); width: 315px !important;}
-.address-two.focused { background-color: rgb(255, 247, 192); width: 125px !important;}
 .city.focused { background-color: rgb(255, 247, 192); width: 270px !important;}
-
+.account-name.focused {width:250px; background-color: rgb(255, 247, 192); }
 .zip-code.focused { background-color: rgb(255, 247, 192); width:325px;}
+.sales-representative.focused{width:200px; background-color: rgb(255, 247, 192); }
+
+
+.work-email.error{margin:-88px 0 0 264px!important;}
+
+.state-list.error{margin:-88px 0 0 300px!important;height:70px!important;}
+.sales-representative.error{margin:-178px 0 0 290px!important; background-color: #FFDFDF !important; }
+
 
 
 
