@@ -12,124 +12,62 @@
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
-        <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src="js/main.js"></script>
+
+
     </head>
+
+
+
+<style>
+#header .info{display:none!important;}
+</style>
+
     <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
 
-        <header class="drop-shadow curved curved-hz-1">
+        <div id="heading">
             <div id="inner-header">
-               <img id="left-image" src="img/left-header-image.png" />
+               <img id="left-image"   src="img/left-header-image.png" />
                <img id="center-image" src="img/center-header-image.png" />
-               <img id="right-image" src="img/right-header-image.png" />            
+               <img id="right-image"  src="img/right-header-image.png" />            
             </div><!--inner-header-->       
-        </header>
+        </div><!--header-->  
 
 
         <div id="wrap">
             <h2 class="header-text">Complete the form below to receive your sample Sharpie kit.</h2>
 
-            <form id="main" action="">
-                
-            <div class="first-row-input">
-                <p>NAME (FIRST NAME, LAST NAME):*</p>
-                    <input class="first-row-inputs" type="text" name="name"/>
-            </div><!--first-row-input-->
+            <div id="main">
 
-            <div class="first-row-input">            
-                <p>WORK EMAIL:*</p>                
-                    <input class="first-row-inputs" type="text" name="email"/>
-            </div><!--first-row-input-->
-
-
-
-
-
-            <div class="second-row-input">            
-                <p>ADDRESS:*</p>                    
-                    <input class="second-row-inputs-address" type="text" name="address"/>
-            </div><!--second-row-input-->
-
-
-            <div class="second-row-input-second">            
-                <p>CITY:*</p>                    
-                    <input class="second-row-inputs-city" type="text" name="city"/>
-            </div><!--second-row-input-->
+            <!-- EMBED -->
+           <div id="wufoo-qzb2i1w13sptzj">
+            Fill out my <a href="https://nwlebiz.wufoo.com/forms/qzb2i1w13sptzj">online form</a>.
+            </div>
+            <script type="text/javascript">var qzb2i1w13sptzj;(function(d, t) {
+            var s = d.createElement(t), options = {
+            'userName':'nwlebiz', 
+            'formHash':'qzb2i1w13sptzj', 
+            'autoResize':true,
+            'height':'1011',
+            'async':true,
+            'host':'wufoo.com',
+            'header':'show', 
+            'ssl':true};
+            s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'wufoo.com/scripts/embed/form.js';
+            s.onload = s.onreadystatechange = function() {
+            var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+            try { qzb2i1w13sptzj = new WufooForm();qzb2i1w13sptzj.initialize(options);qzb2i1w13sptzj.display(); } catch (e) {}};
+            var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+            })(document, 'script');</script>
 
 
-
-
-
-
-
-            <div class="third-row-input">            
-
-               <p>STATE:*</p>                    
-                <div class="styled-select-second">
-                   <select>
-                      <option><p>Select</p></option>
-                      <option>The second option</option>
-                   </select>
-                </div><!--styled-sheet-->
-            </div><!--third-row-input-->
-
-
-            <div class="third-row-input">            
-                <p>ZIP:*</p>                    
-                    <input class="third-row-inputs-zip" type="text" name="zip"/>
-            </div><!--second-row-input-->
-
-            
-            <div class="clearfix"></div>
-
-
-            <div class="fourth-row-input">            
-               <p>ACCOUNT NAME:*</p>                    
-                <div class="styled-select-fourth">
-                   <select>
-                      <option><p>Select</p></option>
-                      <option>The second option</option>
-                   </select>
-                </div><!--styled-sheet-->
-            </div><!--fourth-row-input-->
-
-
-            <div class="fourth-row-input-second">            
-                <p>SALES REPRESENTATIVE:*</p>                    
-                <div class="styled-select-fourth-sales">
-                   <select>
-                      <option><p>Select</p></option>
-                      <option>The second option</option>
-                   </select>
-                </div><!--styled-sheet-->
-
-           </div><!--fourth-row-input-->
-
-
-
-            <div class="fifth-row-input">            
-                <p>ENTER YOUR ACTIVATION CODE:*</p>                    
-                    <input class="fifth-row-inputs" type="text" name="activation-code"/>
-                    <img class="redeem left" src="img/redeemBTN.png">
-                    <p class="tiny-text left">What's this?</p>
-                    <div class="clearfix"></div>
-                        <div class="agreement">
-                            <label>
-                                <input class="left" type="radio" name="radio">
-                                <p class="tiny-text-agree left">I agree to the <span class="underline">terms of service</span></p>
-                            </label>
-                        </div><!--agreement-->
-
-
-                    <img class="submit right" src="img/submitBTN.png">
-
-            </div><!--second-row-input-->
-            </form>
+            </div><!--main-->
 
 
             <img class="bottom-logo left" src="img/sharpie-tiny-logo.png">
@@ -146,8 +84,12 @@
 
 
 
+<script>
+$( document ).ready(function() {
+    console.log( "ready!" );
+});
 
-
+</script>
 
 
 
