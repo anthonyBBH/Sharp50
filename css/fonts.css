@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'FuturaStdHeavy';
+    src: url('fonts/futurah.eot');
+    src: url('fonts/futurah.eot') format('embedded-opentype'),
+         url('fonts/futurah.woff') format('woff'),
+         url('fonts/futurah.ttf') format('truetype'),
+         url('fonts/futurah.svg#FuturaStdHeavy') format('svg');
+}
