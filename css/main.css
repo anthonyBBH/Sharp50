@@ -107,7 +107,7 @@ header{display:none!important;}
 #heading{width:100%;height:235px!important;background-image:url(../img/fiftyWaysRedBG.png);background-repeat:no-repeat;background-size:100% 235px!important;}
 #wrap{
 width: 625px;
-height: 825px;
+height: 945px;
 margin: 0px auto;
 position: relative;
 overflow: hidden!important;
@@ -117,12 +117,12 @@ overflow: hidden!important;
   content: "";
   display: block;
 }
-#main{width:580px;height:900px;border-top:solid 1px #ccc;border-bottom:solid 1px #ccc;margin:23px 0 20px 20px;padding:28px 0 0 5px;overflow-y: hidden;}
+#main{width:580px;height:945px;border-top:solid 1px #ccc;border-bottom:solid 1px #ccc;margin:23px 0 20px 20px;padding:28px 0 0 5px;overflow-y: hidden;}
 .header-text{margin:32px 0 0 28px;}
 .subheader-text{margin:4px 0 0 28px;}
 #inner-header{width:1009px;height:219px;margin:0 auto;}
 
-#required-fields{width:90px;height:30px;line-height:15px;float:right;position:absolute;top:100px;left:520px;}
+#required-fields{width:90px;height:30px;line-height:15px;float:right;position:absolute;top:130px;left:520px;}
 
 #center-image{margin:0 auto!important;}
 .preload *{-webkit-transition:none!important;-moz-transition:none!important;-ms-transition:none!important;-o-transition:none!important;}
@@ -140,6 +140,8 @@ line-height: 20px;}
 .sales-representative{margin:-74px 0 0 319px;}
 .account-name{margin:0;}
 .checkbox-text{}
+.activation-code-verify{margin-top:-2px!important;}	
+.activation-code{margin-top:35px!important;}
 .address-one.focused{background-color:transparent!important;width:315px!important;}
 .city.focused{background-color:transparent!important;width:270px!important;}
 .account-name.focused{background-color:transparent!important;width:250px;}
@@ -155,6 +157,10 @@ line-height: 20px;}
 .account-name.error{background-color:transparent!important;margin:0;}
 .terms-of-use.error{font-size:10px;background-color:transparent!important;margin:20px 0 0!important;}
 .follow-up.error{font-size:10px;background-color:transparent!important;position:absolute;margin:-35px 0 0!important;}
+.activation-code-verify.error{background-color:transparent!important;}
+.activation-code-verify.error p{color:transparent!important;}
+
+
 #instruct22{width:264px!important;height:76px!important;background-color:transparent!important;font-size:11px;font-style:italic;background-image:url(../img/activateCodeBG.png);background-repeat:no-repeat!important;border:none!important;margin:15px 0 0 -90px !important;padding:20px 25px!important;}
 .confirmation-link{font-size:11px!important;font-weight:900!important;}
 input:focus,textarea:focus,isindex:focus,keygen:focus,select:focus{outline:none;border:1px solid #15f9ff!important;}
