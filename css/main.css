@@ -245,7 +245,7 @@ label.choice {
 .agreement{width:325px;height:20px;margin:10px 0 0;}
 .underline{text-decoration:underline;}
 .bottom-logo{float:left;margin:20px 0 0 40px;}
-footer{width:215px;height:38px;float:right;text-decoration:none;margin:13px 0 10px 5px;}
+footer{width:275px;height:38px;float:right;text-decoration:none;margin:13px 0 10px 5px;}
 .drop-shadow{position:relative;width:100%;}
 .drop-shadow:before,.drop-shadow:after{content:"";position:absolute;z-index:-1;bottom:15px;left:10px;box-shadow:10px 25px 20px rgba(0,0,0,0.7);transform:rotate(-3deg);}
 .drop-shadow:after{right:10px;left:auto;transform:rotate(3deg);}
